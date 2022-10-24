@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #D9D9D9; 
+    height: 100vh;
+    
+}
+
+  
+
+
+main{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    justify-content: center;
+ 
+   
+}
+
+section{
+    min-height: 635px;
+       width: 342px ;
+       background-color:#131212;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       border-radius: 15px;  
+       box-shadow: 1px 1px 10px black; 
+       outline: 3px solid black; 
+}
+section p{
+    border-radius: 10px;          
+    background-color: white;
+    width: 304px; 
+    height: 126px; 
+    align-items: center;
+    border: inset 2px solid black;
+    text-align: center;
+}
+
+#nome{
+    
+    font-size: 20pt; 
+    font-weight:700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+ 
+    font-family: 'Lusitana', serif;
+
+}
+
+section table{
+     
+    width: 150px;
+    margin: auto;
+
+}
+section button{
+    width: 60px;
+    box-shadow: 2px 2px 0px rgb(0, 0, 0);
+    min-height: 68px;
+    background-color: #3E3B3B;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    padding: 8px;
+    margin: 3px;
+}
+button:hover{
+    background-color: #3E3B3B;
+       box-shadow: inset 2px 2px 0px rgb(0,0,0);   
+
+}
+
+.btn{
+   
+    margin: 3px;
+    padding: 10px 20px;
+    min-height: 68px;
+    cursor: pointer;
+    
+
+   
+}
+.c{
+    color: red;
+}
+
+#resul{
+    min-height: 150px;
+    color: rgb(65, 65, 249);     
+}
+#zero{
+    min-width: 140px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    margin: 5px 10px;
+    font-size: 14pt;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ footer a{
+    text-decoration:  none;
+    color: #131212;
+    font-style: italic;
+ }
+ footer a:hover{
+    color: rgb(116, 3, 116);
+ }
+ footer i{
+    color: violet;
+ }
